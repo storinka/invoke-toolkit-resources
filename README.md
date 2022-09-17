@@ -29,7 +29,7 @@ class UserRepository implements ResourceRepositoryInterface
 {
     public function create(mixed $itemInput) : mixed {}
     
-    public function updateById(mixed $id,mixed $itemInput) : mixed {}
+    public function updateById(mixed $id, mixed $itemInput) : mixed {}
     
     public function deleteById(mixed $id) : mixed {}
     
