@@ -49,9 +49,9 @@ ResourcesManager::add($usersResource);
 After adding the resource, the following methods will be automatically created:
 
 ```
-users.create(UserInput $user): UserResult;
-users.updateById(mixed $id, UserInput $user): UserResult;
-users.deleteById(mixed $id): UserResult;
+users.create(user: UserInput): UserResult;
+users.updateById(id: T, user: UserInput): UserResult;
+users.deleteById(id: T): UserResult;
 users.getAll(): UserResult[];
 ```
 
