@@ -1,0 +1,21 @@
+{
+    "name": "storinka/invoke-toolkit-resources",
+    "description": "Invoke resources extenstion",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Invoke\\Toolkit\\Resources\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Davyd Kohut",
+            "email": "davyd.kohut@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "storinka/invoke": "dev-v3/rewrite"
+    }
+}
