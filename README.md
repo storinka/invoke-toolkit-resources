@@ -51,7 +51,7 @@ After adding the resource, the following methods will be automatically created:
 ```
 users.create(user: UserInput): UserResult;
 users.updateById(id: T, user: UserInput): UserResult;
-users.deleteById(id: T): UserResult;
+users.deleteById(id: T): void;
 users.getAll(): UserResult[];
 ```
 
